@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.jiangqiangwei.videoviewdemo.MainActivity">
+
+
+    <com.example.jiangqiangwei.videoviewdemo.MyFullVideoView
+        android:id="@+id/videoview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <include
+        android:id="@+id/guide_buttombar"
+        layout="@layout/guide_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+    </include>
+</FrameLayout>
