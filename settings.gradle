@@ -1,0 +1,1 @@
+include ':app', ':picassodemo', ':glide', ':ijkplayerdemo', ':surfaceandmediaplayerdemo', ':videoviewdemo', ':beziercurveshoppingcart', ':xinxingdonghua', ':webview', ':mvpdemo', ':retrofit_rxandroid_mvp_demo'
